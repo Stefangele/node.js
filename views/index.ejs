@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <H1>The coolest cellphones on the planet - Check them out</H1>
+    <table border="1" width="300">
+      <tr>
+        <th>Brand</th>
+      </tr>
+      <% for (let i = 0; i < phone.length; i++) { %>
+      <tr>
+        <td><a href="/detail?index=<%=i%>"><%= phone[i].Brand %></a></td>
+        <!-- <td><%= phone[i].Model %></td>
+        <td><%= phone[i].Color %></td> -->
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>

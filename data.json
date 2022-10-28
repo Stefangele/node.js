@@ -1,0 +1,20 @@
+[
+  {
+    "Brand": "Apple",
+    "Model": "iPhone",
+    "Color": "Midnight",
+    "image": "iphone_midnight.webp"
+  },
+  {
+    "Brand": "Samsung",
+    "Model": "Galaxy",
+    "Color": "Phantom Black",
+    "image": "samsung_phantomblack.webp"
+  },
+  {
+    "Brand": "Huawai",
+    "Model": "Ananas1",
+    "Color": "Silver",
+    "image": "huawai-ananas.webp"
+  }
+]
